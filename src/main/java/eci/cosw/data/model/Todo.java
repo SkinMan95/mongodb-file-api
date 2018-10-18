@@ -79,8 +79,11 @@ public class Todo {
     public String toString() {
         return "Todo{" +
                 "description='" + description + '\'' +
+                ", priority=" + priority +
                 ", dueDate=" + dueDate +
                 ", responsible=" + responsible +
+                ", status='" + status + '\'' +
+                ", fileUrl='" + fileUrl + '\'' +
                 '}';
     }
 }
